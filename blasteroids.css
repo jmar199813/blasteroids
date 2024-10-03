@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centres the game canvas and styles it */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Instructions style */
+h2 {
+  margin-bottom: 10px;
+  color: green; /* Adjust color for better visibility */
+  text-align: center; /* Center align the heading */
+  font-family: 'Press Start 2P';
+}
+
+p {
+  margin: 5px 0;
+  font-size: 18px;
+  text-align: center; /* Center align the paragraphs */
+  color: green; /* White color for better readability */
+  font-family: 'Press Start 2P';
+}
+
+/* Game canvas style */
+canvas {
+  border: 1px solid #fff;
+}
+
+/* Start button style */
+#startButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Press Start 2P';
+  color: green;
+  background-color: #000;
+  border: none;
+/*  border-radius: 5px; */
+  cursor: pointer;
+  outline: 3px solid green;
+}
+
+/* Retry button style */
+#retryButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: 'Press Start 2P';
+  color: green;
+  background-color: #000;
+  border: none;
+/*  border-radius: 5px; */
+  cursor: pointer;
+  outline: 3px solid green;
+}
+
+#startButton:hover {
+  background-color: #0A0A0A;
+}
+
+#retryButton:hover {
+  background-color: #0A0A0A;
+}
